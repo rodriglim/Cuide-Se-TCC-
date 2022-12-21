@@ -1,9 +1,0 @@
-git config --global user.name "nome de usuario de vocês do github"
-git config -- global user.email "o e-mail que esta cadastrado no github"
-git init
-git status
-git add .
-git commit -m "Cuide-Se"
-git remote add origin https://github.com/rodriglim/Cuide-Se-TCC-.git
-git push origin master
-
