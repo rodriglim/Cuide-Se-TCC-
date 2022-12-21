@@ -1,0 +1,156 @@
+/*Tela Cadastro*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(images/blur-coffee-cafe-shop-restaurant-with-bokeh-background-xd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.w50{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+
+
+
+.box{
+    display: flex;
+    width: 930px;
+}
+
+.img-box{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+}
+.img-box img{
+    width: 100%;
+}
+.form-box{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    padding: 30px 40px;
+    width: 50%;
+    opacity: 0.9;
+    border-radius: 50 50px 20px 50px;
+}
+.form-box h2{
+    font-size: 30px;
+}
+
+.form-box h2{
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.9s;
+  }
+  
+.form-box h2:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+.form-box p{
+    font-weight: bold;
+    color: #3D3D3D;
+}
+.form-box p a{
+    color: green;
+    text-decoration: none;
+}
+.form-box p a:hover{
+    color: yellowgreen;
+}
+.form-box form{
+    margin: 20px 0;
+}
+form .input-group{
+    margin-bottom: 15px;
+}
+form .input-group label{
+    color: #000;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+form .input-group input{
+    width: 100%;
+    height: 47px;
+    background-color: white;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    color: #616161;
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    box-shadow: 6px 6px 6px yellowgreen;
+    transition: all 0.4s ease;
+}
+
+form .input-group input:hover{
+    background-color: yellowgreen;
+}
+form .input-group button{
+    width: 90%;
+    height: 47px;
+    background: green;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form .input-group-login button{
+    width: 90%;
+    height: 47px;
+    background: rgb(0, 45, 128);
+    border-radius: 20px;
+text-align: center;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+@media (max-width:930px) {
+    .img-box{
+        display: none;
+    }
+    .box{
+        width: 700px;
+    }
+    .form-box{
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+@media (max-width:500px) {
+    .w50{
+        width: 100%;
+        padding: 0;
+    }
+}
