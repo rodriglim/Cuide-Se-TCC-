@@ -106,14 +106,29 @@ form .input-group input{
     box-shadow: 6px 6px 6px yellowgreen;
     transition: all 0.4s ease;
 }
+
 form .input-group input:hover{
     background-color: yellowgreen;
 }
 form .input-group button{
-    width: 100%;
+    width: 90%;
     height: 47px;
     background: green;
     border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form .input-group-login button{
+    width: 90%;
+    height: 47px;
+    background: rgb(0, 45, 128);
+    border-radius: 20px;
+text-align: center;
     outline: none;
     border: none;
     margin-top: 15px;

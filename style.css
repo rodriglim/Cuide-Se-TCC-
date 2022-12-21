@@ -438,7 +438,7 @@ input[type=checkbox]:checked:disabled + label:before {
     font-weight: 900;
     margin: 0;
     padding: 0;
-    color: #162328;
+    color: white;
     font-weight: bolder;
     text-transform: uppercase;
     font-family: var(--font-default);

@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/comida.jpg);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.3337710084033614) 0%, rgba(255, 255, 255, 0.3337710084033614) 35%, rgb(182, 241, 192) 100%, rgb(162, 235, 174) 50%, rgba(97, 236, 120, 1) 100%);
 }
 
 .container {
